@@ -1,0 +1,224 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.wrapper {
+    height: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 54px;
+    font-family: 'SF UI Display';
+    font-style:normal;
+}
+
+.content{
+    margin: 0;
+    text-align: center;
+    
+}
+.text-logo {
+    /* Эксперты Глобус */
+
+
+
+width: 136px;
+height: 19px;
+left: 0px;
+top: 0px;
+
+
+
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+
+/* Orange */
+
+color: #F57921;
+}
+
+span.text-welcome {
+    top: 22.5%;
+    font-weight: 700;
+    font-size: 22px;
+    font-family: 'SF UI Display';
+    font-style:normal;
+    line-height: 26.25px;
+
+    display: -webkit-inline-box;
+    width: 280px;
+    margin-top: 35px;
+ 
+}
+
+.logo {
+    margin-top: 459px;
+}
+
+.text-first-visit {
+    color: #6D6D77;
+    font-size: 14px;
+    text-align: left;
+    width: 258px;
+    line-height: 17px;
+    font-family: 'SF UI Display';
+    font-style:normal;
+}
+
+.enter {
+    margin-top: 39px;
+    margin-bottom: 10px;
+}
+
+button.st-buttons {
+    width: 400px;
+    height: 54px;
+    font-family: 'SF UI Display';
+    font-style:normal;
+    font-size: 15px;
+  
+    font-weight: 700;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+
+button:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+.icons {
+    margin-right: 13px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+main p {
+    margin-top: 23px;
+}
+.first {
+    margin-top: 0;
+}
+
+.accept {
+    width: 239px;
+    font-family: 'SF UI Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    display: -webkit-inline-box;
+
+/* Additional text color */
+
+color: #6D6D77;
+
+}
+  @font-face {
+   
+    font-family: "SF UI Display"; 
+    src: url("fonts/SFUIDisplay-Regular.ttf"); 
+
+    } 
+/* main-lk*/
+aside {
+    background: #F57921;
+    float: left;
+    width: 229px;
+    height: 1020px;
+}
+
+.lk-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+}
+
+.lk-nav {
+    color: white;
+    font-family: 'SF UI Display';
+    font-style:normal;
+}
+
+section.lk-name-sec{
+    width: 100%;
+    margin-left: 51px;
+    margin-top: 38px;
+    margin-bottom: 51px;
+
+    font-family: 'SF UI Display';
+    font-style:normal;
+}
+section.article-sec{
+    margin-left: 45px;
+    width: 1228px;
+    font-family: 'SF UI Display';
+    font-style:normal;
+    
+}
+
+article.article-block {
+    float: left;
+    width: 425px;
+    height: 90px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.03), 0 10px 10px rgba(0,0,0,0.03);
+    margin-left: 24px;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+
+h2 {
+    font-size: 15px;
+}
+
+h3 {
+    font-size: 15px;
+    color: #F57921;
+}
+
+.article-img {
+    float: left;
+    border-radius: 8px;
+    margin-right: 44.5px;
+    height: 90px;
+}
+
+.shadow-3 {
+    background: white;
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    margin: 50px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+
+  li{
+    margin-top: 28px;
+    list-style-type: none;
+  }
+
+  .menu-exit {
+    padding-top: 242px;
+  }
+
+        @media (max-width: 1200px) { /* стиль имеет смысл, когда ширина экрана больше 1200px, к тому же не нужно придумывать решения для IE7 и ниже */ 
+            article.article-block {
+                float: none;
+            }
+            }
+
